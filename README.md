@@ -5,8 +5,11 @@ This repository contains a simple authentication system built using Express.js a
 **Features**
 
 User Signup: Allows users to sign up with a unique username and password.
+
 User Login: Enables users to log in using their credentials.
+
 Password Hashing:Securely stores passwords using bcryptjs for hashing.
+
 JWT Authentication:Implements JSON Web Tokens (JWT) for user session management.
 
  **Technologies Used**
