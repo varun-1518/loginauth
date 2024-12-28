@@ -1,43 +1,59 @@
-**Authentication System with Express and MongoDB**
+# Authentication System with Express and MongoDB  
 
-This repository contains a simple authentication system built using Express.js and MongoDB for user authentication.
+This repository contains a simple authentication system built using Express.js and MongoDB for user authentication.  
 
-**Features**
+## Features  
 
-▪️User Signup: Allows users to sign up with a unique username and password.
+- **User Signup**: Allows users to sign up with a unique username and password.  
+- **User Login**: Enables users to log in using their credentials.  
+- **Password Hashing**: Securely stores passwords using `bcryptjs` for hashing.  
+- **JWT Authentication**: Implements JSON Web Tokens (JWT) for user session management.  
 
-▪️User Login: Enables users to log in using their credentials.
+## Technologies Used  
 
-▪️Password Hashing:Securely stores passwords using bcryptjs for hashing.
+- **Node.js**: JavaScript runtime environment.  
+- **Express.js**: Web application framework for Node.js.  
+- **MongoDB**: NoSQL database for storing user credentials.  
+- **Mongoose**: Object Data Modeling (ODM) library for MongoDB and Node.js.  
+- **bcryptjs**: Library for password hashing and comparison.  
+- **jsonwebtoken (JWT)**: For token-based authentication.  
 
-▪️JWT Authentication:Implements JSON Web Tokens (JWT) for user session management.
+## Prerequisites  
 
- **Technologies Used**
+Make sure you have the following installed:  
 
-▪️Node.js: JavaScript runtime environment.
+- **Node.js**: [Download Node.js](https://nodejs.org/)  
+- **MongoDB**: [Install MongoDB](https://www.mongodb.com/try/download/community)  
 
-▪️Express.js:Web application framework for Node.js.
+## Configuration  
 
-▪️MongoDB: NoSQL database for storing user credentials.
+- **Port**: The server runs on port `2012` by default. You can modify this in the `index.js` file.  
+- **JWT Secret**: Change the secret key used for JWT generation and verification in the `index.js` file.  
 
-▪️Mongoose: Object Data Modeling (ODM) library for MongoDB and Node.js.
+## Installation  
 
-▪️bcryptjs: Library for password hashing and comparison
+1. Clone this repository:  
+   ```bash  
+   git clone https://github.com/varun-1518/loginauth.git  
+   ```  
 
-▪️jsonwebtoken (JWT): For token-based     authentication
+2. Navigate to the project directory:  
+   ```bash  
+   cd loginauth  
+   ```  
 
- **Prerequisites**
+3. Install dependencies:  
+   ```bash  
+   npm install  
+   ```  
 
-Make sure you have the following installed:
+4. Start the server:  
+   ```bash  
+   node index.js  
+   ```  
 
-▪️Node.js: [Download Node.js](https://nodejs.org/)
+5. Access the server at `http://localhost:2012`.  
 
-▪️MongoDB: [Install MongoDB](https://www.mongodb.com/try/download/community)
+## License  
 
-
-**Configuration**
-
-▪️Port: The server runs on port `2012` by default. You can modify this in the `index.js` file.
-
-▪️JWT Secret: Change the secret key used for JWT generation and verification in the `index.js` file.
-
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.  
